@@ -1,0 +1,15 @@
+{
+  "name": "Rath Yatra: Journey of Devotion",
+  "short_name": "Rath Yatra",
+  "description": "A respectful Rath Yatra festival runner with educational facts, offline play, and Android-ready PWA packaging.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fff3dc",
+  "theme_color": "#ff8a1f",
+  "categories": ["games", "education"],
+  "icons": [
+    { "src": "icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
