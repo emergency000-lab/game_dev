@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Neon Shrine Runner</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero-panel">
+      <p class="eyebrow">Anime endless runner</p>
+      <h1>Neon Shrine Runner</h1>
+      <p class="intro">Dash through a floating temple market, dodge spirit gates, slide under lantern rigs, and collect moon charms while your anime runner speeds up.</p>
+      <div class="controls-card">
+        <h2>Controls</h2>
+        <ul>
+          <li><kbd>←</kbd><kbd>→</kbd> or swipe: change lanes</li>
+          <li><kbd>↑</kbd> / tap top: jump</li>
+          <li><kbd>↓</kbd> / tap bottom: slide</li>
+          <li><kbd>Space</kbd>: start / restart</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="game-card" aria-label="Neon Shrine Runner game">
+      <canvas id="game" width="900" height="620"></canvas>
+      <div class="hud top-left">
+        <span>Score</span><strong id="score">0</strong>
+      </div>
+      <div class="hud top-right">
+        <span>Charms</span><strong id="coins">0</strong>
+      </div>
+      <div id="overlay" class="overlay">
+        <h2>Neon Shrine Runner</h2>
+        <p>Guide Aiko, the shrine courier, through three lanes of glowing anime chaos.</p>
+        <button id="startBtn" type="button">Start Run</button>
+      </div>
+    </section>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
