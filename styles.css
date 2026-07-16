@@ -63,10 +63,10 @@ ul { padding-left: 20px; line-height: 1.8; color: #53352b; }
 kbd { display: inline-block; margin: 0 4px; padding: 2px 8px; border-radius: 8px; background: #5c150e; color: #fff7df; font-weight: 900; }
 .game-card { position: relative; overflow: hidden; border-radius: 36px; border: 1px solid rgba(143, 29, 29, .18); background: #87dbff; box-shadow: 0 30px 90px rgba(94, 41, 13, .28); max-height: 96svh; }
 canvas { display: block; width: 100%; height: auto; max-height: 96svh; touch-action: none; }
-.hud-row { position: absolute; top: max(14px, env(safe-area-inset-top)); left: 14px; right: 14px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.hud-row { position: absolute; top: max(14px, env(safe-area-inset-top)); left: 14px; right: 14px; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
 .hud { padding: 8px 10px; border-radius: 16px; background: rgba(255, 248, 226, .72); border: 1px solid rgba(255,255,255,.45); backdrop-filter: blur(10px); text-align: center; }
 .hud span { display: block; color: #7b2316; font-size: .68rem; font-weight: 900; text-transform: uppercase; letter-spacing: .08em; }
-.hud strong { font-size: clamp(.95rem, 3vw, 1.4rem); }
+.hud strong { font-size: clamp(.82rem, 2.6vw, 1.28rem); }
 .overlay, .education-card { position: absolute; inset: 0; display: grid; place-content: center; padding: 24px; text-align: center; background: radial-gradient(circle, rgba(255, 243, 205, .58), rgba(75, 22, 9, .42)); }
 .overlay.hidden, .education-card.hidden { display: none; }
 .overlay-card, .education-card { inset: auto; max-width: 620px; padding: 28px; }
